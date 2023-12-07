@@ -6,7 +6,7 @@ import (
 
 func TestAbs(t *testing.T) {
 	result := Abs(-4)
-	expected := 4
+	expected := 4.0
 	if result != expected {
 		t.Errorf("got %v, expected %v", result, expected)
 	}
